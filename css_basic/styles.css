@@ -65,4 +65,10 @@ footer a {
 footer a:hover {
   color: #D3D3D3; /* Lighter Gray on hover */
 }
-p {text-align: justify;}
+p {text-align: justify;}.logo {
+  font-size: 3rem;       /* Bigger size to stand out */
+  font-weight: bold;     /* Optional for emphasis */
+  padding-right: 10px;   /* Space between logo and menu */
+  display: flex;
+  align-items: center;
+}
